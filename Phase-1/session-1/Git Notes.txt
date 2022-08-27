@@ -1,0 +1,83 @@
+
+Install Git and check git version -- >git --version
+
+the one who are getting the error while checking the Git version
+(Git is not recognised as an internal or external command)
+follow below mentioned steps
+
+To set Git Path
+--------------------------------------
+
+open git folder from program files and select the git bin path
+
+C:\Program Files\Git\bin
+
+---------------------------------------
+
+right click on thisPc --> properties --> Advanced System Properties (right side)
+--> Environment Variable--> double click on Path --> click on new 
+and paster the git bin path which you have copied.
+
+click on OK.
+
+open cmd again and check the version
+
+git --version
+
+-----------------------------------------------------------------------------------------------------
+ Create account on github.com
+
+login and create a repository
+
+Give Repository name --> anything
+
+and click on create Repository
+
+--------------------------------------------------------------------------------------------------
+some command we will use for very first time only
+
+Let's configure git to yoiur system
+
+>git config --global user.email "type your email"
+
+then move to that folder which you want to upload to your git repository
+
+>D:
+>cd D:\Weekend-javafsd-27-08-2022
+
+then execute below command for git 
+
+> git init (initialize repository)
+> git branch -M main  (change the branch)
+> git remote add origin https://github.com/sonam-niit/Weekend-JavaFSD-27-08-2022.git (Add Origin)
+
+These three command needs to execute only one time.
+
+for updating code everytime
+
+>git add .
+>git commit -m "git notes"
+>git push -u origin main
+
+these will push the code on git repository
+
+(for the first time it will popup for git authentication, select browser authentication so it will open git login from bowser, enter your password so it will authenticate and push the code on Github repository)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
