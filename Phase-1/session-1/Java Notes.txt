@@ -1,0 +1,106 @@
+Open eclipse
+------------------------
+
+select workspace> any folder where you want to store your projects
+
+click on launch
+
+--------------------------------------------------------------------
+
+file--> new --> other --> java project --> give the project name --> next --> finish (if you are getting any popup for creating module file) --> click on don't create --> it will ask you to open perspective -->
+click on that
+
+so you can see the project structure in project explorer where you can see src folder.
+
+------------------------------------------------------------------------------------------------
+
+Whenver we will start creating project. its good to keep your files in proper packages.
+
+(package is for organizing your code)
+
+rules for giving the package name
+-------------------------------------------------
+1. package name should be in lower case.
+2. package name always start with the keyword like (org, egu, com etc) then orgnization name and then your project name
+     example: com.simplilearn.demo
+
+------------------------------------------------------------------------------
+Write a first Program in JAVA
+------------------------------------
+
+to create a program you need to create a class
+
+there is rule for creating a class Name
+
+1. class name always start with caps
+2. If your class name has more than one word then each words first letter should start with caps.
+
+	ex: StudentDemo
+            EntityManager
+
+---------------------------------------------------------------------------------------------
+
+Right click on your package--> new --> class --> name HelloWorld --> finish
+
+-------------------------------------------------------------------------------------------
+if you want to run your any program you must have start button right?
+
+in java the starting point of executing a program is Main method
+
+
+How to create?
+-----------------------
+
+public static void main (String args[])
+{
+     //add your code
+}
+
+---------------------------------------------------------
+public: access it from anywhere
+static: which call itself
+void: which will not return any value
+main: name of your method
+String arg[] is an array where we can pass no of string as an argument
+
+
+-----------------------------------------------------------------------------------------
+
+Run your program buy clicking runas --> java application
+
+check the output in console
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
