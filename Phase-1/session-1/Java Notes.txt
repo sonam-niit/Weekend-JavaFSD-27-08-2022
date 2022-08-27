@@ -68,7 +68,7 @@ String arg[] is an array where we can pass no of string as an argument
 
 Run your program buy clicking runas --> java application
 
-check the output in console
+check the output in conso;le
 
 
 

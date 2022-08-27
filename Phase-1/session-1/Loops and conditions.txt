@@ -1,0 +1,152 @@
+Variables and datatypes
+----------------------------------
+
+sample program
+------------------------
+package com.simplilearn.first;
+
+public class Datatypes {
+
+	public static void main(String[] args) {
+		
+		int num1= 20;
+		int num2= 30;
+		
+		System.out.println("Number1: "+num1);
+		System.out.println("Number2: "+num2);
+		System.out.println("Addition: "+ (num1+num2));
+	}
+}
+
+---------------------------------------------------------------------------------
+
+1. Write a program to declare 3 variables principleAmount, rateOfIntrest and noOfYears
+   and calculate the SimpleIntrest.
+
+2. Write a program to declare a temp in cecious and convert it into feranhit.
+3. Write a program to declare side and calculate area and peremeter of Square.
+4. Write a program to find out the addition of 3 numbers.
+
+Conditional Statements
+--------------------------------------------------
+
+package com.simplilearn.first;
+
+public class IfDemo {
+
+	public static void main(String[] args) {
+
+		int num1 = 10;
+		int num2 = 20;
+
+		if (num1 > num2) {
+			System.out.println(num1 + " is larger");
+		} else {
+			System.out.println(num2 + " is larger");
+		}
+	}
+}
+
+--------------------------------------------------------------------------------------------
+1. WAP to check the given age is valid for vote or not. (age>=18)
+2. WAP to check the student passed the exam or not.(marks>=35)
+3. WAP to check the given number is even or odd (num%2 == 0)
+
+you can write multiple conditions using if else if
+---------------------------------------------------------
+package com.simplilearn.first;
+
+public class ElseIf {
+
+	public static void main(String[] args) {
+
+		int per = 35;
+		if (per >= 70 && per <= 100) {
+			System.out.println("Distinction");
+		} else if (per >= 60 && per < 70) {
+			System.out.println("First class");
+		} else if (per >= 50 && per < 60) {
+			System.out.println("Second class");
+		} else if (per >= 35 && per < 50) {
+			System.out.println("Pass class");
+		} else if (per >= 00 && per < 35) {
+			System.out.println("Fail");
+		} else {
+			System.out.println("Enter valid result");
+		}
+	}
+}
+___________________________________________________________________________________________
+
+1. WAP to check wether the charcter is vowel or not.
+
+Iterative( Repeat the same task multiple time)
+------------------------------------------------------------
+
+Loops
+--------------------------------------------
+package com.simplilearn.first;
+
+public class Loops {
+
+	public static void main(String[] args) {
+		System.out.println("While Loop");
+		int i=1;
+		while(i<=5)
+		{
+			System.out.println(i);
+			i++; // increase the value of i by 1
+		}
+		System.out.println("Do while loop");
+		do {
+			System.out.println(i);
+			i++;
+		}while(i<=10);
+		
+		System.out.println("For loop");
+		for(i=1;i<=5;i++) {
+			System.out.println(i);
+		}
+	}
+}
+
+--------------------------------------------------------------------------------------------
+1. WAP to print first 50 natutal numbers.
+2. WAP to print first 50 even numbers.
+3. WAP to calculate the sum of first 10 natural numbers
+4. WAP to calculate factorial of 5 (5*4*3*2*1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
