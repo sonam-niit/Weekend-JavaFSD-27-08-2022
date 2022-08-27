@@ -64,6 +64,24 @@ these will push the code on git repository
 (for the first time it will popup for git authentication, select browser authentication so it will open git login from bowser, enter your password so it will authenticate and push the code on Github repository)
 
 
+----------------------------------------------------------------------------------------------------
+
+Download JAVA JDK: version 8 or 11
+
+Download latest Eclipse: 
+
+when you install select the option to install eclipse for java enterprise edition
+
+---------------------------------------------------------------------------------------------
+
+you can use LMS labs
+------------------------------
+if labs are under maintanance for temp purpose use java online compiler
+
+https://www.programiz.com/java-programming/online-compiler/
+
+
+
 
 
 
