@@ -1,0 +1,30 @@
+Constructor
+----------------------------
+it is used to construct an object
+
+special method hich is used to initialize an object
+
+we have rules to create Constructor
+
+1. constructor name is same as class name
+2. constructor does not return any value(No return type)
+3. No need to call consctrutor explicitly
+4. constructor calls automatically when you create an object of a class
+
+If you will not create any constructor then compiler will create default constructor while execution of
+a program.
+
+class Employee
+{
+      //default consctructor
+	public Employee(){
+	}
+}
+
+Employee e = new Employee();
+
+Constructor has 2 types
+
+1. default
+2. parameterized
+
